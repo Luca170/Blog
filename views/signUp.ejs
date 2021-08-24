@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/signUp.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<body>
+    <div>
+    <form action="/auth" method="POST">
+    <label for="username">Username: </label><br>
+    <input type="text" name="username" id="username"> <br>
+    <label for="password">Password: </label> <br>
+    <input type="password" name="password"> <br>
+    <button type="submit">Sign Up</button>
+    </form>
+    <a href="/auth/google" class="google">Continue with   google   <i class="fa fa-google" aria-hidden="true"></i></a> <br>
+    <a href="/auth/facebook" class="facebook">Continue with facebook  <i class="fa fa-facebook" aria-hidden="true"></i></a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/edit.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit</title>
+</head>
+<body>
+    <form class="post" action ="/home/blog/all-posts/save" method="POST">
+        <label for="title">Title:</label><br>
+        <input type="text" value="<%= title %>" id="title" name="title"><br>
+        <label for="description">Description:</label><br>
+        <textarea class="description" name="description"><%=description%></textarea><br>
+        <input type="hidden" name="id" value="<%= id %>">
+        <input type="hidden" name="author" value="<%= author %>">
+        <button type="submit">SAVE <br> CHANGES</button><br>
+    </form>
+</body>
+</html>

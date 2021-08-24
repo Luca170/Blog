@@ -1,0 +1,99 @@
+h1 {
+    color:red;
+}
+body {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    text-align:center;
+    flex-direction: column;
+    margin:0;
+    padding:0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.blog {
+    background-color:rgb(238, 153, 17);
+    height:45vh;
+}
+.blog-a {
+    color: black !important;
+    background-color:inherit;
+    border : 1.5px solid black;
+    text-decoration:none;
+    padding:22px;
+    font-size:2rem;
+    transition: all 0.5s
+}
+.blog-h3 {
+    font-size:3rem;
+}
+.blog-a:hover {
+    color:rgb(238, 153, 17) !important;
+    background-color: black;
+}
+.sign-up {
+    background-color:black;
+    color:rgb(238, 153, 17) !important;
+    width:100%;
+    height:40vh;
+}
+.signUp-h3 {
+    font-size:3rem;
+}
+.signUp-a {
+    color:rgb(238, 153, 17) !important;
+    background-color:inherit;
+    text-decoration: none !important;
+    border: 1.5px solid rgb(238, 153, 17);
+    padding:20px;
+    font-size:2rem;
+    transition: all 0.5s 
+}
+.signUp-a:hover {
+    background-color:rgb(238, 153, 17) !important;
+    color:black !important;
+}
+.email {
+    width:100%;
+    background-color:rgb(238, 153, 17);
+    height:45vh;
+}
+.email-a{
+    color: black !important;
+    background-color:inherit;
+    border : 1.5px solid black;
+    text-decoration:none;
+    padding:22px;
+    font-size:2rem;
+    transition: all 0.5s
+}
+.email-a:hover {
+    color:rgb(238, 153, 17) !important;
+    background-color: black;
+}
+.email-h3{
+    font-size:3rem;
+}
+.signed {
+    background-color:black;
+    color:rgb(238, 153, 17) !important;
+    width:100%;
+    height:40vh;
+}
+.signed-h3 {
+    font-size:3rem;
+}
+.signed-a {
+    color:rgb(238, 153, 17) !important;
+    background-color:inherit;
+    text-decoration: none !important;
+    border: 1.5px solid rgb(238, 153, 17);
+    padding:20px;
+    font-size:2rem;
+    transition: all 0.5s 
+}
+.signed-a:hover {
+    background-color:rgb(238, 153, 17) !important;
+    color:black !important;
+}

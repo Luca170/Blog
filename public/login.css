@@ -1,0 +1,47 @@
+body {
+    background-color:rgba(0, 0, 0, 0.945);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin:0;
+    padding:0;
+    flex-direction:column;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div {
+    border: 1px solid rgb(238, 153, 17);
+    padding:30px;
+    margin:10px;
+    height:40vh;
+}
+form {
+    color:rgb(238, 153, 17)
+}
+label {
+    font-size:2rem;
+}
+input {
+    border:none;
+    outline:none;
+    background-color:inherit;
+    border-bottom: 1px solid rgb(238, 153, 17);
+    font-size:1.5rem;
+    color:rgb(238, 153, 17);
+}
+button {
+    border:none;
+    color:rgb(238, 153, 17);
+    background-color:inherit;
+    font-size: 1.5rem;
+    border: 1px solid rgb(238, 153, 17);
+    padding:15px;
+    margin:20px;
+    position:relative;
+    left:70px;
+    cursor:pointer;
+    transition: all 0.3s
+}
+button:hover {
+    background-color:rgb(238, 153, 17);
+    color:black;
+}

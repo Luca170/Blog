@@ -1,0 +1,27 @@
+body {
+    background-color:rgba(0, 0, 0, 0.945);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin:0;
+    padding:0;
+    flex-direction:column;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a {
+    border:1px solid rgb(238, 153, 17);
+    color: rgb(238, 153, 17) !important;
+    font-size:3rem;
+    text-decoration: none !important;
+    padding:30px;
+    transition: all 0.3s 
+}
+a:hover {
+    background-color: rgb(238, 153, 17);
+    color: black !important
+}
+span {
+    color: rgb(238, 153, 17);
+    font-size:3.5rem;
+    padding:20px;
+}

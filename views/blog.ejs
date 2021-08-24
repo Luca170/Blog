@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/blog.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+</head>
+<body>
+    <div>
+    <form action="blog/post" method="POST">
+    <label for="title">Title: </label> <br>
+    <input type="text" name="title" required> <br>
+    <label for="description">Description: </label> <br>
+    <textarea name="description" id="" required cols="30" rows="3"></textarea><br>
+    <button type="submit">Post</button>
+    </form>
+    <a href="blog/all-posts">See all posts</a>
+    </div>
+</body>
+</html>

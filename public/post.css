@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+    background-color:rgba(0, 0, 0, 0.945);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a {
+    text-decoration:none !important;
+    color: rgb(238, 153, 17) !important;
+    border: 1px solid rgb(238, 153, 17);
+    padding:20px;
+    margin:10px;
+    font-size:1.5rem;
+}
+a:hover {
+    background-color:rgb(238, 153, 17);
+    color:rgba(0, 0, 0, 0.945) !important;
+}
+.post {
+    margin:10px;
+    width:60vw;
+    height:60vh;
+    background: rgba( 74, 74, 74, 0.30 );
+    box-shadow: 0 8px 32px 0 rgba(38, 38, 41, 0.37);
+    backdrop-filter: blur( 12.5px );
+    -webkit-backdrop-filter: blur( 12.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.title {
+    font-weight: bold;
+    color:rgb(238, 153, 17);
+    font-size:2rem;
+    margin:10px;
+}
+.description {
+    border:1px solid rgb(238, 153, 17);
+    border-radius:8px;
+    color:rgb(238, 153, 17);
+    font-size:1.5rem;
+    resize: none;
+    height:25vh;
+    width:90%;
+    margin-left:10px;
+    background-color: inherit;
+    outline:none;
+}
+.author {
+
+    color:rgb(189, 119, 7);
+    outline:none;
+    border:none;
+    font-size:1.5rem;
+    width:100%;
+}
+#user {
+    background-color:inherit;
+}
+#author {
+    background-color: transparent;
+}
+button {
+color: rgb(238, 153, 17) !important;
+text-decoration: none !important;
+border: 1px solid rgb(238, 153, 17);
+padding:1%;
+margin:1%;
+height:10vh;
+background-color:inherit;
+font-size:1.5rem;
+border-radius: 10px;
+}
+button:hover {
+    background-color: rgb(238, 153, 17);
+    color:rgba(0,0,0,0.945) !important;
+    cursor: pointer;
+}
+
+#edit {
+    float:right;
+}
+@media only screen and (max-width: 636px) {
+  
+   
+}

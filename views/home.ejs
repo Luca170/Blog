@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/home.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <div class="blog">
+        <h3 class="blog-h3">IF YOU WANT TO POST SOMETHING CLICK HERE BUT BE SURE TO BE LOGGED FIRST</h3>
+        <a href="home/blog" class="blog-a">Blog</a>
+    </div>
+    <% if(signUp) { %>
+        <div class="sign-up">
+            <h3 class="signUp-h3">IF YOU WANT TO SIGN UP CLICK HERE</h3>
+            <a href="home/sign-up" class="signUp-a">Sign-Up</a>
+        </div>
+    <% } %> 
+    <%if(!signUp) {%>
+        <div class="signed">
+            <h3 class="signed-h3">You're already signed up</h3>
+            <a href="/logout" class="signed-a">Logout</a>
+        </div>
+    <% } %>
+    <div class="email">
+        <h3 class="email-h3">IF YOU WANT RECEIVE NEWS CLICK HERE</h3>
+        <a href="/email" class="email-a">Email</a>
+    </div>
+</body>
+</html>
